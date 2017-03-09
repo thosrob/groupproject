@@ -1,0 +1,72 @@
+body {
+ background-image: url(http://eskipaper.com/images/beautiful-blue-eyes-wallpaper-1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+ul.topnav li {
+  float: right;
+  border-right: 5px solid #ffff00 ;
+}
+ul.topnav li a {
+    display: block;
+    color: #0000ff ;
+    padding: 16px 18px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+   }
+ul.topnav li a:hover {
+    background-color: yellow;
+  }
+.active {
+  background-color: gray;
+}
+#mytopnav {
+  background: rgba(59,59,59, .3);
+}
+
+
+
+
+
+
+
+.header{
+	font-size: 30px;
+	color: #3300ff;
+	font-family: 'Diplomata SC', cursive;
+	text-align: center;
+	padding-top: 220px;
+}
+
+h1{
+	 'Diplomata SC', cursive;
+
+}
+
+
+
+
+ footer {
+    padding: .005em;
+    color: white;
+    background-color: gray;
+    clear: left;
+    text-align: center;
+    opacity: 0.5;
+    font-family: Arial Narrow;
+    letter-spacing: 1px;
+
+}

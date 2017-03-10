@@ -37,12 +37,6 @@ ul.topnav li a:hover {
   background: rgba(59,59,59, .3);
 }
 
-
-
-
-
-
-
 .header{
 	font-size: 30px;
 	color: #3300ff;
@@ -53,7 +47,18 @@ ul.topnav li a:hover {
 
 h1{
 	 'Diplomata SC', cursive;
+}
 
+.container{
+	border: 1px solid yellow;
+	margin-left: 300px;
+	margin-right: 300px;
+	vertical-align: center;
+}
+
+.container2{
+	
+	vertical-align: center;
 }
 
 

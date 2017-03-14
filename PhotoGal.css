@@ -1,8 +1,15 @@
 body {
- background-image: url(http://eskipaper.com/images/beautiful-blue-eyes-wallpaper-1.jpg);
- background-repeat: no-repeat;
- background-size: cover;
+  background: url(http://eskipaper.com/images/beautiful-blue-eyes-wallpaper-1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+.carousel-indicators{
+   top:0px; 
+}
+
 
 .topnav {
   list-style-type: none;
@@ -42,27 +49,56 @@ ul.topnav li a:hover {
 	color: #3300ff;
 	font-family: 'Diplomata SC', cursive;
 	text-align: center;
-	padding-top: 220px;
+	padding-top: 300px;
+  text-shadow: 2px 2px white;
 }
 
-h1{
-	 'Diplomata SC', cursive;
+h1 {
+   font-family: 'Diplomata SC', cursive;
+   position: absolute; top: 15px; width: 100%;
+   padding-top: 100px;
+   font-size: 48px;
 }
 
 .container{
 	border: 1px solid yellow;
-	margin-left: 300px;
+	margin: 0 auto;
+	vertical-align: center;
+}
+
+.container2 {
+	margin-left: 400px;
+	margin-right: 300px;
+	vertical-align: center;
+	font-size: 2em;
+}
+
+.container3 {
+	margin-left: 400px;
 	margin-right: 300px;
 	vertical-align: center;
 }
 
-.container2{
-	
-	vertical-align: center;
+.yellowbkgd{
+    padding-left: 195px;
+    text-align: center;
+    background-color: #0000ff ;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
+p{
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
 
-
+.nastywoman {
+	font-family: cursive; 
+	letter-spacing: 1px;
+	font-size: 2em;
+	color: blue;
+}
 
  footer {
     padding: .005em;
@@ -75,3 +111,4 @@ h1{
     letter-spacing: 1px;
 
 }
+

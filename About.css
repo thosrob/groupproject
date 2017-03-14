@@ -1,8 +1,13 @@
-body {
-  background-image: url(http://eskipaper.com/images/beautiful-blue-eyes-wallpaper-1.jpg);
-  background-repeat: no-repeat;
+html {
+  background: url(http://eskipaper.com/images/beautiful-blue-eyes-wallpaper-1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
+
+
+
 .topnav {
   list-style-type: none;
   margin: 0;
@@ -13,6 +18,8 @@ body {
   width: 100%;
 
 }
+
+
 ul.topnav li {
   float: right;
   border-right: 5px solid #ffff00;
@@ -26,39 +33,53 @@ ul.topnav li a {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
    }
+
+
 ul.topnav li a:hover {
     background-color: yellow;
+
+
   }
 .active {
   background-color: gray;
 }
+
+
 #mytopnav {
   background: rgba(59,59,59, .3);
 }
+
 .header{
-    font-size: 30px;
-    color: #3300ff;
+  font-size: 30px;
+    color: #3300ff ;
     font-family: 'Diplomata SC', cursive;
     text-align: center;
-    padding-top: 290px;
+    padding-top: 300px;
+  text-shadow: 2px 2px white;
 }
+
+
 .tent {
   float: right;
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   color: white;
   padding-left: 60px;
   text-align: right;
   margin-right: 30px;
   margin-left: 470px;
 }
+
+
+
 #sign {
   text-align: center;
   color: #3300ff;
   font-family: 'Diplomata SC', cursive;
-  text-shadow: 2px 2px white;
-  padding-left: 300px;
+  padding-left: 360px;
+  font-size: 28px;
 }
+
 #sign2 {
   text-align: center;
   color: white;
@@ -66,18 +87,19 @@ ul.topnav li a:hover {
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
 }
-/*span {
-    float: left;
+span {
     width: 0.9em;
     font-size: 300%;
     font-family: cursive;
     line-height: 80%;
-  }*/
+  }
+
+
   footer {
       padding: .005em;
       color: white;
       background-color: gray;
-      clear: left;
+      clear: both;
       text-align: center;
       opacity: 0.5;
       font-family: Arial Narrow;
